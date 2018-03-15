@@ -1,0 +1,21 @@
+<Driver Description="Dell Server PXE and Power Control" MainClass="driver.Dellredfishshell1Driver" Name="Dellredfishshell1Driver" Version="1.0.0">
+    <Layout>
+         <Category Name="Booting">
+            <Command Description="Shows first boot choice" DisplayName="Get Boot Setting" Name="get_next_boot_current_setting" />
+            <Command Description="Set to PXE Boot one-time, on next reboot" DisplayName="Set to PXE Boot" Name="set_pxe_onetime_boot_device" />
+            <Command Description="Reboot" DisplayName="Reboot" Name="reboot_server" />
+         </Category>
+         <Category Name="Power">
+            <Command Description="Shows if on or off" DisplayName="Show Power" Name="show_power_state" />
+            <Command Description="On" DisplayName="Power ON" Name="power_on" />
+            <Command Description="Off" DisplayName="Power OFF" Name="power_off" />
+         </Category>
+         <Category Name="Health">
+            <Command Description="Pings root resource" DisplayName="Ping Server" Name="ping_check" />
+         </Category>
+         <Category Name="Hidden Commands">
+            <Command Description="" DisplayName="Orchestration Save" Name="orchestration_save" />
+            <Command Description="" DisplayName="Orchestration Restore" Name="orchestration_restore" />
+         </Category>
+    </Layout>
+</Driver>

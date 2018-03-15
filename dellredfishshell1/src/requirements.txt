@@ -1,0 +1,4 @@
+cloudshell-shell-core>=3.1.0,<3.2.0
+cloudshell-core>=2.2.180
+cloudshell-automation-api>=8.2.0.111,<8.3.0.000
+requests==2.18.4
